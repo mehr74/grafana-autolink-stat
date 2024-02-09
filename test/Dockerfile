@@ -10,5 +10,4 @@ COPY . .
 
 EXPOSE 8000
 
-# CMD [ "which", "python" ]
 CMD ["python", "main.py"]
