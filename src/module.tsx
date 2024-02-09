@@ -18,6 +18,13 @@ export const plugin = new PanelPlugin<Options>(StatPanel)
     commonOptionsBuilder.addTextSizeOptions(builder);
 
     builder
+      .addTextInput({
+      path: 'prefix',
+      name: 'Link prefix',
+      description: 'Link prefix for the href attribute',
+      defaultValue: "http://localhost:4000",
+      category: mainCategory,
+    })
       .addSelect({
         path: 'textMode',
         name: 'Text mode',
