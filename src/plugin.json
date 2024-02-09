@@ -1,13 +1,13 @@
 {
   "type": "panel",
-  "name": "Stat",
-  "id": "stat",
+  "name": "Autolink Stat",
+  "id": "autolinkstat",
 
   "info": {
     "description": "Big stat values & sparklines",
     "author": {
-      "name": "Grafana Labs",
-      "url": "https://grafana.com"
+      "name": "Mehrshad Lotfi Foroushani",
+      "url": "https://mehrshad.io"
     },
     "logos": {
       "small": "img/icn-singlestat-panel.svg",
